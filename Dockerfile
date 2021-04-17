@@ -7,4 +7,4 @@ COPY Gemfile.lock .
 RUN bundle install
 COPY . /app
 
-ENTRYPOINT ["bash"]
+ENTRYPOINT ["ruby", "src/mapper/mapper.rb"]
