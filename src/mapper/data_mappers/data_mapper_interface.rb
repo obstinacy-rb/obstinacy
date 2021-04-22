@@ -1,4 +1,4 @@
-class DataMapper
+module DataMapperInterface
   def map_from_entity(entity)
     raise NotImplementedError
   end
